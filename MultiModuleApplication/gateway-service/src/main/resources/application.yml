@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-service
+
+  cloud:
+    gateway:
+      routes:
+        - id: access-service
+          uri: lb://access-service
+          predicates:
+            - Path=/access/**
+
+        - id: welcome-service
+          uri: lb://welcome-service
+          predicates:
+            - Path=/welcome/**
+
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**
+
+        - id: admin-service
+          uri: lb://admin-service
+          predicates:
+            - Path=/admin/**
