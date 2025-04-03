@@ -22,15 +22,15 @@ Prerequisites
 
 ### Running the Services
 1. Run Clean Script (Before Running Services)
-* clean.bat
+- clean.bat
 - This cleans and installs all Maven dependencies for the parent project.
 
 2. Start Eureka Server
-   runServer.bat
+- runServer.bat
 - This starts the Eureka Server.
-- 
+
 3. Run All Services
- run.bat
+- run.bat
 - This starts API Gateway, User Service, Admin Service, and Welcome Service.
 
 ### Accessing Services via Gateway
