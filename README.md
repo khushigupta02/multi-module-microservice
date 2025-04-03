@@ -21,41 +21,6 @@ Prerequisites
 - Eureka Server
 
 ### Running the Services
-1. Start Eureka Server
-- cd eureka-server
-- mvn spring-boot:run
-
-1. Start API Gateway
-- cd eureka-server
-- mvn spring-boot:run
-
-2. Start Eureka Server
-- cd api-gateway
-- mvn spring-boot:run
-
-3. Start User Service
-- cd user-server
-- mvn spring-boot:run
-
-4. Start Admin Server
-- cd admin-server
-- mvn spring-boot:run
-
-5. Start Welcome Server
-- cd admin-server
-- mvn spring-boot:run
-
-### Accessing Services via Gateway
-
-Once all services are up and running, you can access them through the gateway at port 8080:
-
-User Service: http://localhost:8080/user/message
-
-Admin Service: http://localhost:8080/admin/message
-
-Welcome Service: http://localhost:8080/welcome/message
-
-### Running the Services
 1. Run Clean Script (Before Running Services)
  clean.bat
 - This cleans and installs all Maven dependencies for the parent project.
@@ -67,6 +32,16 @@ Welcome Service: http://localhost:8080/welcome/message
 3. Run All Services
  run.bat
 - This starts API Gateway, User Service, Admin Service, and Welcome Service.
+
+### Accessing Services via Gateway
+
+Once all services are up and running, you can access them through the gateway at port 8080:
+
+User Service: http://localhost:8080/user/message
+
+Admin Service: http://localhost:8080/admin/message
+
+Welcome Service: http://localhost:8080/welcome/message
 
 ### Postman Collection
 
