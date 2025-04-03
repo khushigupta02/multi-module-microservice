@@ -22,7 +22,7 @@ Prerequisites
 
 ### Running the Services
 1. Run Clean Script (Before Running Services)
- clean.bat
+* clean.bat
 - This cleans and installs all Maven dependencies for the parent project.
 
 2. Start Eureka Server
