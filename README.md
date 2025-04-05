@@ -2,7 +2,7 @@
 
  This project demonstrates a multi-module microservices architecture with an API Gateway that routes requests to multiple services and first registers in the Eureka server.
 
-##### Services and Endpoints
+### Services and Endpoints
 
 User Service - Runs on port 8081 and can be accessed via http://localhost:8080/user/message
 
@@ -20,12 +20,12 @@ Prerequisites
 - Git
 - Maven
 
-Running the Services
+### Running the Services
 
 #### 1. Navigate to the Project Root Folder
 - Redirect on parent folder: MultiModuleApplication
 
-### Machine-Specific Scripts for Windows/macOS
+#### Machine-Specific Scripts for Windows/macOS
 ####  1. Clean and Install All Modules (Run before starting services)
 Command to set execution permissions of clean.sh (macOS/Linux only):
 - chmod +x clean.sh
@@ -37,7 +37,7 @@ Command to set execution permissions of clean.sh (macOS/Linux only):
 #### 3. Start Eureka Server
 Command to set execution permissions of runServer.sh (macOS/Linux only):
 - chmod +x runServer.sh
-###### Run the script:
+Run the script:
 - Windows: runServer.bat
 - macOS/Linux: ./runServer.sh
 - This script starts the Eureka Server, which is essential for service discovery and registration.
@@ -45,7 +45,7 @@ Command to set execution permissions of runServer.sh (macOS/Linux only):
 #### Start All Microservices
 Command to set execution permissions of run.sh (macOS/Linux only):
 - chmod +x run.sh
-###### Run the script:
+Run the script:
 - Windows: run.bat
 - macOS/Linux: ./run.sh
 - This script sequentially starts the User Service, Admin Service, Welcome Service, and API Gateway after verifying Eureka Server is running.
