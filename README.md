@@ -25,7 +25,7 @@ Prerequisites
 #### Command to set execution permissions of clean.sh (macOS/Linux only):   
 2. Clean and Install All Modules (Run before starting services)
 - chmod +x clean.sh
-Run the script:
+###### Run the script:
 - Windows: clean.bat
 - macOS/Linux: ./clean.sh
 - This script runs mvn clean install to clean and install all Maven dependencies across the multi-module project.
@@ -33,7 +33,7 @@ Run the script:
 3. Start Eureka Server
 Command to set execution permissions of runServer.sh (macOS/Linux only):
 - chmod +x runServer.sh
-Run the script:
+###### Run the script:
 - Windows: runServer.bat
 - macOS/Linux: ./runServer.sh
 - This script starts the Eureka Server, which is essential for service discovery and registration.
@@ -41,7 +41,7 @@ Run the script:
 4. Start All Microservices
 Command to set execution permissions of run.sh (macOS/Linux only):
 - chmod +x run.sh
-Run the script:
+###### Run the script:
 - Windows: run.bat
 - macOS/Linux: ./run.sh
 - This script sequentially starts the User Service, Admin Service, Welcome Service, and API Gateway after verifying Eureka Server is running.
@@ -71,7 +71,8 @@ Command to set execution permissions of kill.sh (macOS/Linux only):
 ###### Run the script:
 - Windows: kill.bat
 - macOS/Linux: ./kill.sh
-- This script forcefully terminates any processes running on ports commonly used by the application (e.g., 8761, 8080, 8081, 8082, 8083). Use it when ports are stuck or already in use before starting the services.
+
+This script forcefully terminates any processes running on ports commonly used by the application (e.g., 8761, 8080, 8081, 8082, 8083). Use it when ports are stuck or already in use before starting the services.
 
 ### Conclusion
 
