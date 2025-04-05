@@ -22,8 +22,9 @@ Prerequisites
 ### Running the Services
 1. Navigate to the Project Root Folder - Redirect on parent folder: MultiModuleApplication
 
-#### Command to set execution permissions of clean.sh (macOS/Linux only):   
 2. Clean and Install All Modules (Run before starting services)
+Command to set execution permissions of clean.sh (macOS/Linux only):   
+
 - chmod +x clean.sh
 ###### Run the script:
 - Windows: clean.bat
