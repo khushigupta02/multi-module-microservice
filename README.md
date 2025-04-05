@@ -1,8 +1,8 @@
 # Multi-Module Microservices Architecture with API Gateway
 
-#### This project demonstrates a multi-module microservices architecture with an API Gateway that routes requests to multiple services and first registers in the Eureka server.
+ This project demonstrates a multi-module microservices architecture with an API Gateway that routes requests to multiple services and first registers in the Eureka server.
 
-Services and Endpoints
+##### Services and Endpoints
 
 User Service - Runs on port 8081 and can be accessed via http://localhost:8080/user/message
 
