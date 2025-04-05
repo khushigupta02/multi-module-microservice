@@ -25,7 +25,7 @@ Running the Services
 #### 1. Navigate to the Project Root Folder
 - Redirect on parent folder: MultiModuleApplication
 
-(Machine-Specific Scripts for Windows/macOS)
+### (Machine-Specific Scripts for Windows/macOS)
 #### 2. Clean and Install All Modules (Run before starting services)
 - Windows: clean.bat
 - macOS/Linux: clean.sh
