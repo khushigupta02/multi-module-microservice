@@ -24,7 +24,7 @@ Prerequisites
 
 2. Clean and Install All Modules (Run before starting services)
 ###### Run the script:
-- Command to set execution permissions of clean.sh (macOS/Linux only):   
+####### Command to set execution permissions of clean.sh (macOS/Linux only):   
 - chmod +x clean.sh
 - Windows: clean.bat
 - macOS/Linux: ./clean.sh
@@ -32,7 +32,7 @@ Prerequisites
 
 3. Start Eureka Server
 ###### Run the script:
--Command to set execution permissions of runServer.sh (macOS/Linux only):
+####### Command to set execution permissions of runServer.sh (macOS/Linux only):
 - chmod +x runServer.sh
 - Windows: runServer.bat
 - macOS/Linux: ./runServer.sh
@@ -40,7 +40,7 @@ Prerequisites
 
 4. Start All Microservices
 ###### Run the script:
-- Command to set execution permissions of run.sh (macOS/Linux only):
+####### Command to set execution permissions of run.sh (macOS/Linux only):
 - chmod +x run.sh
 - Windows: run.bat
 - macOS/Linux: ./run.sh
