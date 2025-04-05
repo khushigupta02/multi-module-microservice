@@ -62,7 +62,7 @@ A Postman collection is attached to this project for making requests to the micr
 Eureka Server can be accessed at:
 http://localhost:8761
 
-### Kill Running Ports (Machine-Specific Scripts)
+### If(Ports are already run on local) Kill Running Ports (Machine-Specific Scripts)
 ###### Run the script:
 ###### Command to set execution permissions of kill.sh (macOS/Linux only): chmod +x kill.sh
 - Windows: kill.bat
