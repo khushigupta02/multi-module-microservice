@@ -1,6 +1,5 @@
 # Multi-Module Microservices Architecture with API Gateway
-
- This project demonstrates a multi-module microservices architecture with an API Gateway that routes requests to multiple services and first registers in the Eureka server.
+This project demonstrates a multi-module microservices architecture with an API Gateway that routes requests to multiple services and first registers in the Eureka server.
 
 ### Services and Endpoints
 
@@ -22,8 +21,7 @@ Prerequisites
 
 ### Running the Services
 1. Navigate to the Project Root Folder - Redirect on parent folder: MultiModuleApplication
-- Machine-Specific Scripts for Windows/macOS
-
+   
 2. Clean and Install All Modules (Run before starting services)
 * Command to set execution permissions of clean.sh (macOS/Linux only):
 - chmod +x clean.sh
