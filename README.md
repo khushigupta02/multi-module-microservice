@@ -21,9 +21,9 @@ Prerequisites
 
 ### Running the Services
 1. Navigate to the Project Root Folder - Redirect on parent folder: MultiModuleApplication
-   
+
+#### Command to set execution permissions of clean.sh (macOS/Linux only):   
 2. Clean and Install All Modules (Run before starting services)
-#### Command to set execution permissions of clean.sh (macOS/Linux only):
 - chmod +x clean.sh
 Run the script:
 - Windows: clean.bat
@@ -31,7 +31,7 @@ Run the script:
 - This script runs mvn clean install to clean and install all Maven dependencies across the multi-module project.
 
 3. Start Eureka Server
-#### Command to set execution permissions of runServer.sh (macOS/Linux only):
+Command to set execution permissions of runServer.sh (macOS/Linux only):
 - chmod +x runServer.sh
 Run the script:
 - Windows: runServer.bat
@@ -39,7 +39,7 @@ Run the script:
 - This script starts the Eureka Server, which is essential for service discovery and registration.
 
 4. Start All Microservices
-#### Command to set execution permissions of run.sh (macOS/Linux only):
+Command to set execution permissions of run.sh (macOS/Linux only):
 - chmod +x run.sh
 Run the script:
 - Windows: run.bat
