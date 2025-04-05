@@ -25,22 +25,30 @@ Running the Services
 #### 1. Navigate to the Project Root Folder
 - Redirect on parent folder: MultiModuleApplication
 
-### (Machine-Specific Scripts for Windows/macOS)
-#### 2. Clean and Install All Modules (Run before starting services)
+### Machine-Specific Scripts for Windows/macOS
+####  1. Clean and Install All Modules (Run before starting services)
+Command to set execution permissions of clean.sh (macOS/Linux only):
+- chmod +x clean.sh
+###### Run the script:
 - Windows: clean.bat
-- macOS/Linux: clean.sh
+- macOS/Linux: ./clean.sh
 - This script runs mvn clean install to clean and install all Maven dependencies across the multi-module project.
 
 #### 3. Start Eureka Server
-- Windows: start-eureka.bat
-- macOS/Linux: start-eureka.sh
+Command to set execution permissions of runServer.sh (macOS/Linux only):
+- chmod +x runServer.sh
+###### Run the script:
+- Windows: runServer.bat
+- macOS/Linux: ./runServer.sh
 - This script starts the Eureka Server, which is essential for service discovery and registration.
 
 #### Start All Microservices
-- Windows: start-services.bat
-- macOS/Linux: start-services.sh
+Command to set execution permissions of run.sh (macOS/Linux only):
+- chmod +x run.sh
+###### Run the script:
+- Windows: run.bat
+- macOS/Linux: ./run.sh
 - This script sequentially starts the User Service, Admin Service, Welcome Service, and API Gateway after verifying Eureka Server is running.
-
 
 ### Accessing Services via Gateway
 
@@ -60,6 +68,14 @@ A Postman collection is attached to this project for making requests to the micr
 
 Eureka Server can be accessed at:
 http://localhost:8761
+
+### Kill Running Ports (Machine-Specific Scripts)
+Command to set execution permissions of kill.sh (macOS/Linux only):
+- chmod +x kill.sh
+###### Run the script:
+- Windows: kill.bat
+- macOS/Linux: ./kill.sh
+- This script forcefully terminates any processes running on ports commonly used by the application (e.g., 8761, 8080, 8081, 8082, 8083). Use it when ports are stuck or already in use before starting the services.
 
 ### Conclusion
 
