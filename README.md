@@ -33,7 +33,7 @@ Run the script:
 - This script runs mvn clean install to clean and install all Maven dependencies across the multi-module project.
 
 3. Start Eureka Server
-- Command to set execution permissions of runServer.sh (macOS/Linux only):
+* Command to set execution permissions of runServer.sh (macOS/Linux only):
 - chmod +x runServer.sh
 Run the script:
 - Windows: runServer.bat
@@ -41,7 +41,7 @@ Run the script:
 - This script starts the Eureka Server, which is essential for service discovery and registration.
 
 4. Start All Microservices
-- Command to set execution permissions of run.sh (macOS/Linux only):
+* Command to set execution permissions of run.sh (macOS/Linux only):
 - chmod +x run.sh
 Run the script:
 - Windows: run.bat
