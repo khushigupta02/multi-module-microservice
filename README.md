@@ -63,9 +63,8 @@ Eureka Server can be accessed at:
 http://localhost:8761
 
 ### Kill Running Ports (Machine-Specific Scripts)
-Command to set execution permissions of kill.sh (macOS/Linux only):
-- chmod +x kill.sh
 ###### Run the script:
+###### Command to set execution permissions of kill.sh (macOS/Linux only): chmod +x kill.sh
 - Windows: kill.bat
 - macOS/Linux: ./kill.sh
 
