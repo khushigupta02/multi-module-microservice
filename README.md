@@ -1,6 +1,6 @@
 # Multi-Module Microservices Architecture with API Gateway
 
-###### This project demonstrates a multi-module microservices architecture with an API Gateway that routes requests to multiple services and first registers in the Eureka server.
+#### This project demonstrates a multi-module microservices architecture with an API Gateway that routes requests to multiple services and first registers in the Eureka server.
 
 Services and Endpoints
 
