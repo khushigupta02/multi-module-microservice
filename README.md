@@ -23,23 +23,23 @@ Prerequisites
 Running the Services
 
 1. Navigate to the Project Root Folder
-- Redirect on parent folder: MultiModuleApplication
+#### Redirect on parent folder: MultiModuleApplication
 
 (Machine-Specific Scripts for Windows/macOS)
 2. Clean and Install All Modules (Run before starting services)
 - Windows: clean.bat
 - macOS/Linux: clean.sh
-This script runs mvn clean install to clean and install all Maven dependencies across the multi-module project.
+#### This script runs mvn clean install to clean and install all Maven dependencies across the multi-module project.
 
 3. Start Eureka Server
 - Windows: start-eureka.bat
 - macOS/Linux: start-eureka.sh
-This script starts the Eureka Server, which is essential for service discovery and registration.
+#### This script starts the Eureka Server, which is essential for service discovery and registration.
 
 4. Start All Microservices
 - Windows: start-services.bat
 - macOS/Linux: start-services.sh
-This script sequentially starts the User Service, Admin Service, Welcome Service, and API Gateway after verifying Eureka Server is running.
+#### This script sequentially starts the User Service, Admin Service, Welcome Service, and API Gateway after verifying Eureka Server is running.
 
 
 ### Accessing Services via Gateway
